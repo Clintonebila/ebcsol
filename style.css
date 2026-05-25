@@ -1,0 +1,55 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grid container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    width: 80%;
+    min-height: 70vh;
+}
+
+/* Header */
+.header {
+    grid-column: 1 / 3;
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+.menu {
+    grid-column: 1 / 3;
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #dbeafe;
+    padding: 20px;
+}
+
+/* Main */
+.main {
+    background-color: #f8fafc;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    grid-column: 1 / 3;
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
